@@ -1,0 +1,12 @@
+{
+  "entity.chicken.ambient": {
+    "category": "neutral",
+    "replace": true,
+    "sounds": [
+      "mob/chicken/bawk1",
+      "mob/chicken/bawk2",
+      "mob/chicken/bawk3",
+      "mob/chicken/bawk4"
+    ]
+  }
+}
