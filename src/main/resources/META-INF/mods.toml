@@ -1,12 +1,12 @@
 modLoader="javafml"
-loaderVersion="[61,)"
+loaderVersion="[62,)"
 license="All Rights Reserved"
 #issueTrackerURL="https://github.com/MyOrganization/MyMod/" #optional
 #clientSideOnly=true #optional, default=false
 
 [[mods]]
 modId="bluthchix"
-version="1.0.0"
+version="1.1.0"
 displayName="Bluth Family Poultry"
 #updateJSONURL="https://example.com/updates.json" #optional
 #displayURL="https://example.com/" #optional
@@ -20,13 +20,13 @@ description='''Replaces chicken ambient sounds with custom ones.'''
 [[dependencies.bluthchix]] #recommended
     modId="forge"
     mandatory=true
-    versionRange="[61,)"
+    versionRange="[62,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.bluthchix]] #recommended
     modId="minecraft"
     mandatory=true
-    versionRange="[1.21.11,1.22,)"
+    versionRange="[26.1,27)"
     ordering="NONE"
     side="BOTH"

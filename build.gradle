@@ -9,17 +9,17 @@ plugins {
     id 'net.minecraftforge.gradle' version '[7.0.3,8)'
 }
 
-version = '1.0.0'
+version = '1.1.0'
 group = 'com.bluthchix'
 
-// Mojang ships Java 21 to end users in 1.20.5+, so your mod should target Java 21.
-java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+// Mojang ships Java 25 to end users in 26.1+, so your mod should target Java 25.
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
 
 // Include generated resources
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 minecraft {
-    mappings channel: 'official', version: '1.21.11'
+    mappings channel: 'official', version: '26.1'
 
     runs {
         configureEach {
@@ -55,7 +55,7 @@ repositories {
 }
 
 dependencies {
-    implementation minecraft.dependency('net.minecraftforge:forge:1.21.11-61.1.3')
+    implementation minecraft.dependency('net.minecraftforge:forge:26.1-62.0.2')
     annotationProcessor 'net.minecraftforge:eventbus-validator:7.0.1'
 }
 
