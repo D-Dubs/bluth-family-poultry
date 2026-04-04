@@ -9,7 +9,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '[7.0.3,8)'
 }
 
-version = '1.1.0'
+version = '1.1.1'
 group = 'com.bluthchix'
 
 // Mojang ships Java 25 to end users in 26.1+, so your mod should target Java 25.
@@ -19,7 +19,7 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(25)
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 minecraft {
-    mappings channel: 'official', version: '26.1'
+    mappings channel: 'official', version: '26.1.1'
 
     runs {
         configureEach {
@@ -55,7 +55,7 @@ repositories {
 }
 
 dependencies {
-    implementation minecraft.dependency('net.minecraftforge:forge:26.1-62.0.2')
+    implementation minecraft.dependency('net.minecraftforge:forge:26.1.1-63.0.1')
     annotationProcessor 'net.minecraftforge:eventbus-validator:7.0.1'
 }
 

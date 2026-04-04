@@ -5,7 +5,7 @@ A Minecraft mod that replaces the standard chicken ambient "clucking" sounds wit
 ## Features
 - Replaces vanilla chicken ambient sounds with 4 custom sound effects.
 - Randomly selects between the sounds for a more authentic Bluth experience.
-- Built for Minecraft Forge (26.1).
+- Built for Minecraft Forge (26.1.1).
 
 ## Disclaimer
 **This project is a non-commercial, fan-made parody created for educational and personal use.**
@@ -18,7 +18,7 @@ This mod is intended to be a transformative work under **Fair Use** principles:
 3. **Effect on the Market:** This mod does not compete with or replace the original series in any way; in fact, it likely encourages viewers to seek out the original show.
 
 ## Installation
-1. Ensure you have [Minecraft Forge](https://files.minecraftforge.net/) installed for version 26.1.
+1. Ensure you have [Minecraft Forge](https://files.minecraftforge.net/) installed for version 26.1.1.
 2. Download the `bluthchix-1.0.0.jar` from the `build/libs` folder (or from the Releases page).
 3. Place the `.jar` file into your Minecraft `mods` folder:
    - **macOS:** `~/Library/Application Support/minecraft/mods/`
