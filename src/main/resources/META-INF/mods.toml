@@ -6,7 +6,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="bluthchix"
-version="1.1.1"
+version="1.1.2"
 displayName="Bluth Family Poultry"
 #updateJSONURL="https://example.com/updates.json" #optional
 #displayURL="https://example.com/" #optional
@@ -20,13 +20,13 @@ description='''Replaces chicken ambient sounds with custom ones.'''
 [[dependencies.bluthchix]] #recommended
     modId="forge"
     mandatory=true
-    versionRange="[63,)"
+    versionRange="[65,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.bluthchix]] #recommended
     modId="minecraft"
     mandatory=true
-    versionRange="[26.1.1,27)"
+    versionRange="[26.2,27)"
     ordering="NONE"
     side="BOTH"
